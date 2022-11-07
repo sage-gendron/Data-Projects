@@ -1,1 +1,1 @@
-# Soccer-Data-Analitics
+# Soccer-Data-Analytics
