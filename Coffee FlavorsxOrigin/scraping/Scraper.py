@@ -3,6 +3,12 @@
 author: Sage Gendron
 Base scraper class with methods that all individual site scrapers will use. Ultimately won't be used on its own, but
 will be inherited per website to be scraped so the find_text/find_list functions can be customized.
+
+Some other options to scrape:
+- https://burmancoffee.com/green-coffee-beans/
+- https://happymugcoffee.com/collections/green-coffee
+- https://www.roastmasters.com/green_coffee.html
+- https://millcityroasters.com/product-category/green-coffee/
 """
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchAttributeException, NoSuchElementException
@@ -23,6 +29,7 @@ class Scraper:
 
         self.load_data(data_loc)
         self.start_driver()
+        self.get_links(url)
 
     def start_driver(self):
         """
@@ -74,9 +81,14 @@ class Scraper:
         :param str url: url to scrape anchor-tagged hyperlinks from
         :return: None
         """
+        if self.links:
+            self.links = []
+
+        self.url = url
+
         self.driver.get(url)
 
-        self.driver.implicitly_wait(3.0)
+        self.wait(3)
 
         link_elements = self.driver.find_elements(by=By.TAG_NAME, value='a')
 
@@ -95,7 +107,7 @@ class Scraper:
         """
         Looks for a specific element as specified by the find type and element being searched for.
 
-        :param selenium.common.By find_type: class of search method
+        :param selenium.webdriver.common.By find_type: class of search method
         :param str elem: string corresponding to search method being used
         :return: the text contained in the searched-for element if found, otherwise returns None
         :rtype: str
@@ -146,4 +158,3 @@ class Scraper:
         :return: None
         """
         self.driver.implicitly_wait(t)
-

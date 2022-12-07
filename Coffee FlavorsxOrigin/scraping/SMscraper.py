@@ -1,15 +1,8 @@
-# scraper.py
+# SMscraper.py
 """
 author: Sage Gendron
 Selenium webscraper class specifically written to scrape coffee information from Sweet Maris's. Also includes a function
 to insert data to an existing coffee data file and a dunder main function to initiate the scraper.
-
-Some other options to scrape:
-- https://burmancoffee.com/green-coffee-beans/
-- https://happymugcoffee.com/collections/green-coffee
-- https://www.roastmasters.com/green_coffee.html
-- https://royalcoffee.com/offerings/?pa_position=spot
-- https://millcityroasters.com/product-category/green-coffee/
 """
 from Scraper import Scraper
 from selenium.webdriver.common.by import By
@@ -72,7 +65,7 @@ if __name__ == '__main__':
         url=url_current
     )
 
-    # loop through links located on url
+    # loop through links located in url
     for link in scraper.links:
         print(link)
         # if link doesn't end in a coffee code or has already been visited, skip
