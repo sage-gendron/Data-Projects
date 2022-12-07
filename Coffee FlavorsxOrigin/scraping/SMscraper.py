@@ -1,10 +1,10 @@
-# SMscraper.py
+# scraping/SMscraper.py
 """
 author: Sage Gendron
 Selenium webscraper class specifically written to scrape coffee information from Sweet Maris's. Also includes a function
 to insert data to an existing coffee data file and a dunder main function to initiate the scraper.
 """
-from Scraper import Scraper
+from Scraper.Scraper import Scraper
 from selenium.webdriver.common.by import By
 import time
 

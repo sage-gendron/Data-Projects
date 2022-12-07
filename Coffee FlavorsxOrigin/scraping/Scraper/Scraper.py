@@ -1,4 +1,4 @@
-# Scraper.py
+# scraping/Scraper/Scraper.py
 """
 author: Sage Gendron
 Base scraper class with methods that all individual site scrapers will use. Ultimately won't be used on its own, but
