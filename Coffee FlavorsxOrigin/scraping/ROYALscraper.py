@@ -1,9 +1,9 @@
-# ROYALscraper.py
+# scraping/ROYALscraper.py
 """
 author: Sage Gendron
 
 """
-from Scraper import Scraper
+from Scraper.Scraper import Scraper
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.common.by import By
 import time
@@ -71,6 +71,8 @@ class ROYALScraper(Scraper):
             return self.driver.find_element(By.CLASS_NAME, 'next.page-numbers').get_attribute('href')
         except NoSuchElementException:
             return None
+        except TimeoutException:
+            return None
 
 
 if __name__ == '__main__':
@@ -119,7 +121,12 @@ if __name__ == '__main__':
 
             about_parents = scraper.find_list(By.XPATH, '//*[@id="page-container"]/div/div[2]/div[3]/div')[0]
 
-            scraper.insert_data(link, title, background, flavors, about_parents)
+            try:
+                scraper.insert_data(link, title, background, flavors, about_parents)
+            except NoSuchElementException:
+                continue
+            except TimeoutException:
+                continue
 
             # save data at intervals of 10
             if i % 10 == 0:
