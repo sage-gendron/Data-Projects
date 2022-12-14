@@ -2529,78 +2529,6 @@
         "process": "Wet Process (Washed)",
         "site": "SM"
     },
-    "Espresso Workshop #49 Balayage": {
-        "cupping": {
-            "Body": "9.8",
-            "Brightness": "8.5",
-            "Clean Cup": "8.5",
-            "Complexity": "9.2",
-            "Dry Fragrance": "8.7",
-            "Finish": "8.8",
-            "Flavor": "9",
-            "Sweetness": "8.7",
-            "Uniformity": "8.3",
-            "Wet Aroma": "8.8"
-        },
-        "cupping_notes": "Balayage was blended with espresso in mind, but I also enjoyed a City+ roast as brewed coffee. The body is certainly something you can sink your teeth into, and so is bittersweetness. Chocolate roast flavors are surprisingly intense, with a dark berry note that is subtle at first, but gains momentum as the coffee cools off. Acidity level is also of note at this roast level, and is underscored by a flavor of red apple that blends well with the chocolatey undertones. For espresso, Full City is the minimum roast level we recommend. Of the two darker roasts I produced, it was also my favorite. I'm a sucker for fruited flavors in my espresso, especially when tempered by bittersweetness, and Balayage really delivers on those two fronts. The bittersweetness comes off in dense flavor layers at Full City and Full City+, producing profiles of high % cacao bar, Ghirardelli dark chocolate chips, ganache filling, and a rich flourless chocolate torte note. The cocoa characteristics are intense, to say the least, and do well to ground the fruited top notes that peek through, but never dominate. My initial Full City shot displayed notes of chocolate banana pudding, cherry cordials, and an orange flavor that's tangy but with brightness kept in check by sipid bittersweetness. At Full City+ (45F beyond 1st C, with a few 2nd cracks in the cooling tray), the creamy texture coats your palate and leaves behind a contemplative finish of smokey roasted cacao nibs, sweetened condensed milk, and a bit of dried blueberry in the aroma. Balayage is a nice addition to our other espresso blends, offering a slightly more fruited take on Espresso Monkey if I had to compare it one of them. It's fantastic solo, and shorter pulls are going to bring out a little more acidity if that's what you're after, while Full City+ is the target for an espresso that will stand up to milk.",
-        "decaf": false,
-        "description": "Fruited flavors tempered by bittersweetness, Ghirardelli dark chocolate chips, ganache filling, chocolate banana pudding, cherry cordials, dried blueberry aroma, orange hint, and smokey cacao finish. Full City to Full City+. Good for espresso.",
-        "flavors": {
-            "Berry": "3",
-            "Body": "5",
-            "Caramel": "3",
-            "Citrus": "2",
-            "Cocoa": "4.5",
-            "Floral": "0",
-            "Fruits": "2.5",
-            "Honey": "0",
-            "Nuts": "0",
-            "Rustic": "0.5",
-            "Spice": "0",
-            "Sugars": "3"
-        },
-        "link": "https://www.sweetmarias.com/espresso-workshop-49-balayage-7198.html",
-        "origin": "Espresso",
-        "overall_score": "89.3",
-        "process": "Other Processes",
-        "site": "SM"
-    },
-    "Espresso Workshop #50 - The Skullet": {
-        "cupping": {
-            "Body": "9.3",
-            "Brightness": "8",
-            "Clean Cup": "8.5",
-            "Complexity": "9.2",
-            "Dry Fragrance": "8.5",
-            "Finish": "9",
-            "Flavor": "9.2",
-            "Sweetness": "8.3",
-            "Uniformity": "9",
-            "Wet Aroma": "8.5"
-        },
-        "cupping_notes": "When considering ingredients for this blend, we knew we wanted to pair a bittersweet Latin American coffee with something from Ethiopia that offered both bittersweetness, and fruit. We're really pleased with the trio we landed on, and those looking for a little more 'umph' in their shots will be too! Full City roast level is an ideal starting point, ensuring bittersweet chocolate flavors that come off in layers. The aftertaste is very long, due in part to the creamy mouthfeel that seems to coat your palate with lasting flavors. Medium-long shots show lots of roast intensity that leads to a chocolate-forward flavor profile of super high % cacao bar that emphasizes the \"bitter\" in \"bittersweetness\". There's a fruited sweetness underneath that comes through a little more in the middle and aftertaste, but never feels like it imposes on the rich chocolatey character to me. Perhaps a shade lighter might show differently (I imagine more acidity at least), but Full City/Full City+ are much more rounded. Notes of stewed plum and stone fruit offer tasty accents to the more opaque cocoa and baking chocolate flavors that dominate the shot. Chocolatey fruit accent notes take shape as of cherry covered dried cherry and pear. I get a little sharpness in my shorter pulls (18g of coffee in to about 18-20g espresso out across 25 to 30 seconds), but less of a citrus tone, and more of the sharpness of extra dark chocolate. Taking this blend into 2nd cracks diminishes much of the fruited hints and builds roast intensity to a bittersweet climax that's sure to cut through milk nicely.",
-        "decaf": false,
-        "description": "Layered bittersweet flavors are accented by fruited hints, and creamy mouthfeel ensures a very long finish! Chocolate-forward profile of high % cacao bar and baking chocolate adds a sharpness to the cup, with hints of stewed plum, and chocolate-covered dried fruits. Full City to Full City+. Fantastic espresso!",
-        "flavors": {
-            "Berry": "2",
-            "Body": "4",
-            "Caramel": "0",
-            "Citrus": "0.5",
-            "Cocoa": "5",
-            "Floral": "0",
-            "Fruits": "2.5",
-            "Honey": "0",
-            "Nuts": "0",
-            "Rustic": "0",
-            "Spice": "0",
-            "Sugars": "3"
-        },
-        "link": "https://www.sweetmarias.com/espresso-workshop-50-the-skullet-7388.html",
-        "origin": "Espresso",
-        "overall_score": "89",
-        "process": "Other Processes",
-        "site": "SM"
-    },
     "Ethiopia Agaro Duromina": {
         "cupping": {
             "Body": "9",
@@ -8649,56 +8577,6 @@
         "process": "Swiss Water Decaf",
         "site": "SM"
     },
-    "ROASTED COFFEE El Salvador Apaneca Finca Miravalle": {
-        "cupping_notes": null,
-        "decaf": false,
-        "description": "Roasted to City+: Cocoa, brown sugar, nutty.",
-        "link": "https://www.sweetmarias.com/roasted-coffee-el-salvador-apaneca-finca-miravalle-7261.html",
-        "origin": null,
-        "overall_score": null,
-        "process": null,
-        "site": "SM"
-    },
-    "ROASTED COFFEE Zambia Dry Process Kateshi Estate ": {
-        "cupping_notes": null,
-        "decaf": false,
-        "description": "Roasted to City+: Apple wine, dried pear, spiced mole chocolate.",
-        "link": "https://www.sweetmarias.com/roasted-coffee-zambia-dry-process-kateshi-estate-7233.html",
-        "origin": null,
-        "overall_score": null,
-        "process": null,
-        "site": "SM"
-    },
-    "ROASTED ESPRESSO Liquid Amber Blend": {
-        "cupping_notes": null,
-        "decaf": false,
-        "description": "Roasted on 11/1/2022 to Light Vienna",
-        "link": "https://www.sweetmarias.com/roasted-espresso-liquid-amber-blend-2655.html",
-        "origin": null,
-        "overall_score": null,
-        "process": null,
-        "site": "SM"
-    },
-    "ROASTED ESPRESSO Workshop The Skullet": {
-        "cupping_notes": null,
-        "decaf": false,
-        "description": "Roasted to Full City+ : Baking chocolate, stewed plum, cherry.",
-        "link": "https://www.sweetmarias.com/roasted-espresso-workshop-the-skullet-7388.html",
-        "origin": null,
-        "overall_score": null,
-        "process": null,
-        "site": "SM"
-    },
-    "Roasted Coffee Subscription": {
-        "cupping_notes": null,
-        "decaf": false,
-        "description": "Enjoy 2 lbs of freshly roasted coffee\u00a0from our\u00a0Probat roaster\u00a0at Sweet Maria's Coffee.\u00a0With a roasted coffee subscription we ship you two different single origin coffees roasted between a City-Full City roast,\u00a0packaged in resealable valve bags.\u00a0",
-        "link": "https://www.sweetmarias.com/rstd-subs-1050.html",
-        "origin": null,
-        "overall_score": null,
-        "process": null,
-        "site": "SM"
-    },
     "Rwanda Dry Process Kanyege": {
         "cupping": {
             "Body": "9.3",
@@ -10569,42 +10447,6 @@
         "origin": "Timorindo",
         "overall_score": "86.8",
         "process": "Swiss Water Decaf",
-        "site": "SM"
-    },
-    "Winter Special: Ethiopia Honey Genji": {
-        "cupping": {
-            "Body": "9.5",
-            "Brightness": "8.7",
-            "Clean Cup": "9",
-            "Complexity": "9",
-            "Dry Fragrance": "8.6",
-            "Finish": "8.8",
-            "Flavor": "8.9",
-            "Sweetness": "9",
-            "Uniformity": "9",
-            "Wet Aroma": "9"
-        },
-        "cupping_notes": "This honey process lot from the Genji Challa region has mild fruited suggestions in the cup, with raw, unrefined sugar type sweetness being much of the focal point. The dry fragrance has whiffs of red honey, raw cane sugar, and a subtle stone fruit accent. The wet aroma smelled so sweet to me at City roast level, like opening a box of brown sugar, and a peach floral accent made a soft impact on the super sweet aromatics. The light City roast I tasted showed impressive sweetness in the cup as well, with a flavor profile of partially refined sugars like sucanat, light brown sugar, and some honey accents, building out a convincing base sweetness. Fruited accents gain some momentum as the coffee cools down, with stone fruit hints such as apricot and peach adding complex flavors to the cup profile. There's a very subtle floral aroma at City, as well as some sweet herb-like rue, that was mostly undetectable in my Full City roast. That said, the darker roast displayed a juicy grape note amidst incredible roast bittersweetness that echoed high % cacao/chocolate bar, that distills down into an espresso that's tough to beat.",
-        "decaf": false,
-        "description": "Impressive sweetness, sucanat, light brown sugar, honey accent, fruits lay a light touch on the profile, apricot and peach notes, a subtle floral aroma, rue herbal accent, round mouthfeel. City to Full City. Good for espresso.",
-        "flavors": {
-            "Berry": "2",
-            "Body": "4.5",
-            "Caramel": "1",
-            "Citrus": "1.5",
-            "Cocoa": "4",
-            "Floral": "2",
-            "Fruits": "2.5",
-            "Honey": "2",
-            "Nuts": "0",
-            "Rustic": "0",
-            "Spice": "2",
-            "Sugars": "4"
-        },
-        "link": "https://www.sweetmarias.com/winter-special-ethiopia-honey-genji-6965.html",
-        "origin": null,
-        "overall_score": "89.5",
-        "process": "Honey Process",
         "site": "SM"
     },
     "Yemen Al Qafr Hawari": {
