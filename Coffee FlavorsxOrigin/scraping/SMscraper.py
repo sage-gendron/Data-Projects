@@ -74,7 +74,6 @@ if __name__ == '__main__':
 
         time.sleep(3)
         scraper.scrape(link)
-        scraper.wait(2)
 
         # look for the title and short description from the webpage, if not found, skip the page
         title = scraper.find_text(By.XPATH, '/html/body/div/main/div/div/div/div/div/h1/span')

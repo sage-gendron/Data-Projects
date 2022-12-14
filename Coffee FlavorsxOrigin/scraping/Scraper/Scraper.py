@@ -30,6 +30,7 @@ class Scraper:
         self.load_data(data_loc)
         self.start_driver()
         self.get_links(url)
+        self.set_wait(3)
 
     def start_driver(self):
         """
@@ -87,8 +88,6 @@ class Scraper:
         self.url = url
 
         self.driver.get(url)
-
-        self.wait(3)
 
         link_elements = self.driver.find_elements(by=By.TAG_NAME, value='a')
 
@@ -150,7 +149,7 @@ class Scraper:
         """
         self.visited.append(sublink)
 
-    def wait(self, t):
+    def set_wait(self, t):
         """
         Calls selenium's implicitly_wait() function on the driver to allow some buffer time between server requests.
 

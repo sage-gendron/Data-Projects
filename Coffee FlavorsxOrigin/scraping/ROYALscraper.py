@@ -67,7 +67,6 @@ class ROYALScraper(Scraper):
         """
         try:
             self.driver.get(self.url)
-            self.wait(5)
             return self.driver.find_element(By.CLASS_NAME, 'next.page-numbers').get_attribute('href')
         except NoSuchElementException:
             return None
@@ -100,7 +99,6 @@ if __name__ == '__main__':
 
             time.sleep(3)
             scraper.scrape(link)
-            scraper.wait(5)
 
             title = scraper.find_text(By.CLASS_NAME, 'product_title')
             if title is None:
